@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Home Page*/
+#Home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-container{
+
+    font-size: 1.2rem;
+    padding: 0 1.5rem;
+
+}
+section h4{
+    color: brown;
+}
+section h1 span{
+    color: blueviolet;
+}
+.img-container{
+    padding: 10rem;
+}
+.img-container img{
+    height: 40vh;
+    width: 40vh;
+    padding: 1rem;
+    border: 5px solid darkgreen;
+}
+button{
+    margin-top: 30px;
+    padding: 0 2rem;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: rgb(105, 105, 179);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: rgb(26, 5, 5);
+}
+
+/*About page starts here*/
+
+#AboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#img-container{
+    padding: 5rem;
+}
+
+#img-container img{
+    height: 60vh;
+    width: 60vh;
+    padding: 1rem;
+  
+}
+
+#AboutMe div h1{
+    margin: 0 5rem;
+}
+
+#AboutMe div p{
+    padding: 0 5rem 5rem;
+    line-height: 1.5rem;
+}
+#AboutMe div p span{
+    color: blueviolet;
+}
+
+#AboutMe ul li{
+    line-height: 1.5rem;
+    margin: 0 5rem;
+    list-style: none;
+}
+
+/*Project starts here*/
+
+#Projects{
+    padding: 0 4rem;
+    margin: 2rem 2rem;
+}
+#Projects h1{
+    color: brown;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container div{
+    
+    background-color: aquamarine;
+    padding: 1.5rem;
+    margin: 1.3rem 2rem;
+    line-height: 1.5rem;
+}
+
+.container div #front{
+    margin: 1rem;
+    font-size: 1.8rem;
+    color: purple;
+}
+
+.container div #back{
+    margin: 1rem;
+    font-size: 1.8rem;
+}
+.container div #mobile{
+    margin: 1rem;
+    font-size: 1.8rem;
+    color: purple;
+}
+
+/*Skils page starts here*/
+
+#skills{
+    padding: 1rem;
+    margin: 1rem;
+}
+#skills h1{
+    color: blueviolet
+}
+#skills h3{
+    text-decoration: underline;
+    color: brown;
+    margin-top: 1rem;
+}
+#skills ol {
+    padding: 0.5rem;
+}
+#skills ol li{
+    padding: 0.3rem;
+}
+
+.statistics{
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    column-gap: 4rem;
+    row-gap: 1rem;
+}
+.statistics span{
+    font-weight: bold;
+}
+
+#flutter-60{
+    margin-left: 47%;
+    
+}
+.w-100{
+    width: 100%;
+    height: 0.7rem;
+    background-color: black;
+    border-radius: 0.5rem;
+
+}
+.w-60{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 0.7rem;
+    background-color: green;
+    width: 61%;
+}
+#html-90{
+    margin-left: 75%;
+}
+.w-90{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 0.7rem;
+    background-color: green;
+    width: 90%;
+}
+#css-80{
+    margin-left: 69%;
+}
+.w-80{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 0.7rem;
+    background-color: green;
+    width: 80%;
+}
+#react-60{
+    margin-left: 48%;
+}
+.w-60{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 0.7rem;
+    background-color: green;
+    width: 61%;
+}
+#dotnet-50{
+    margin-left: 39%;
+}
+.w-50{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 0.7rem;
+    background-color: green;
+    width: 50%;
+}
+#sql-70{
+    margin-left: 59%;
+}
+.w-70{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 0.7rem;
+    background-color: green;
+    width: 70%;
+}
+
+/*Contact Page starts here*/
+
+#contact{
+    padding: 1rem;
+    margin: 1rem;
+}
+#contact h1{
+    margin-bottom: 1rem;
+    color: green;
+}
+
+#contact span{
+    margin-right: 20%;
+
+}
+#contact form{
+    margin-top: 5%;
+}
+
+#contact input{
+    margin-bottom: 1rem;
+}
+
+#contact textarea{
+    margin-bottom: 1rem;
+}
+
